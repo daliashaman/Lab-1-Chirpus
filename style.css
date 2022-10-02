@@ -16,7 +16,7 @@ li {
     text-decoration: none;
     color: unset;
 }
-.list-1 {
+.name {
 color: #000;
 }
 p {
@@ -45,6 +45,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    color: #69696a;
 }
 #link {
     text-decoration: none;
