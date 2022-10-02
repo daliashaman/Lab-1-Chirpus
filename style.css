@@ -1,15 +1,20 @@
 @font-face {
     font-family: "OpenSans";
-    src: url(OpenSans-Medium.ttf);
+    src: url(font/OpenSans-regular.ttf) format("truetype");
 }
 body {
-    font-family: 'OpenSans';
+    font-family: "OpenSans";
     background-color: #f9fafc;
 }
 li {
     list-style-type: none;
-    display: block;
     color: #69696a;
+}
+.nav li a {
+    display: block;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: unset;
 }
 .list-1 {
 color: #000;
@@ -17,6 +22,7 @@ color: #000;
 p {
     color: #69696a;
     border-left: 4px solid #69696a;
+    padding-left: 15px;
 }
 h1 {
    font-weight: normal; 
@@ -26,10 +32,22 @@ button {
     color: #fff;
     border-radius: 100px;
     padding: 10px;
-    padding-left: 200px;
-    padding-right: 200px;
+    display: block;
+    width: 100%;
+
 }
 footer {
     background-color: rgba(247, 193, 162, 0.7);
-    padding: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#link {
+    text-decoration: none;
+    color: #69696a;
+    padding: 8px;
 }
