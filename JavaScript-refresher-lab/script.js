@@ -1,14 +1,15 @@
-var firstName = "Dalia";
-var lastName = "Shaman";
+let firstName = "Dalia";
+let lastName = "Shaman";
 
-let fullName = "firstName " + "lastName";
-var population = "672,351";
+let fullName = firstName  + " " + lastName;
+let population = "672,351";
 let javaScriptIsCool = true;
 
 console.log(fullName);
 console.log(population);
-console.log('population' *3);
+console.log(3 * population);
 
+let colors = ["Red", "Organge", "Yellow", "Green", "Blue", "Indigo", "Violet"];
 for(x= 1; x <= 5; x++)
 console.log(x);
 
